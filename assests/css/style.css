@@ -17,4 +17,55 @@
     --white: (0, 0% 100%);
     
     --fs-base: 0.85rem;
+    --fs-1: 1.875rem;
+    --fs-2: 1.5rem;
+    --fs-3: 1.25rem;
+    --fs-4: 1.875rem;
+    --fs-5: 1.75rem;
+
+    --py: 5rem;
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {text-decoration: none;}
+li {list-style: none;}
+img, button {display: block;}
+a, span {display: inline-block;}
+button {
+    font: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+    font-size: var(--fs-base);
+    line-height: 1.8;
+}
+
+:focus {outline-offset: 4px;}
+
+::-webkit-scrollbar {width: 16px;}
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 20px;
+    border: 4px solid;
+}
+
+.light-theme::-webkit-scrollbar-thumb {border-color: (0, 0%, 90%);}
+.light-dark::-webkit-scrollbar-thumb {border-color: (219, 27%, 20%);}
+
+
+.light-theme::-webkit-scrollbar-track {background: (0, 0%, 90%);}
+.light-dark::-webkit-scrollbar-track {background: (219, 27%, 20%);}
+
+.h1,.h2,.h3,.h4 {
+ display: block;
+ color: var(--foreground-primary);
 }
