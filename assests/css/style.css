@@ -1,0 +1,20 @@
+.light-theme{
+    --background-primary: (0, 0%, 100%);
+    --background-secundary: (0, 0%, 97%);
+
+    --action-primary: (214, 32%, 91%);
+    --action-secundary: (210, 38%, 95%);
+
+    --foreground-primary: (218, 23%, 23%);
+    --foreground-secundary: (216, 15%, 53%);
+    --foreground-tertiary: (214, 20%, 69%);
+
+    --accent: (229, 76%, 66%);
+
+}
+
+:root{
+    --white: (0, 0% 100%);
+    
+    --fs-base: 0.85rem;
+}
